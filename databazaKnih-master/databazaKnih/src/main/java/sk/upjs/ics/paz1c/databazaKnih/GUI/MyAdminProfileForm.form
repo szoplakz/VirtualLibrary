@@ -135,7 +135,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <Component id="UserProfileUserNameLabel" min="-2" pref="55" max="-2" attributes="0"/>
-                      <EmptySpace pref="36" max="32767" attributes="0"/>
+                      <EmptySpace pref="24" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="UserProfileFullNameLabel" min="-2" max="-2" attributes="0"/>
@@ -413,6 +413,11 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="InspectRequestsButton">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Obrazky/InspectRequestsIcon.png"/>
+        </Property>
+      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="DeleteUsersLabel">
       <Properties>

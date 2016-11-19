@@ -261,6 +261,11 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="ReadBooksIconButton">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Obrazky/TickIcon.png"/>
+        </Property>
+      </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="WantedBooksIconButton">
       <Properties>
@@ -331,6 +336,11 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="AuthorReviewIconButton">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Obrazky/AuthorReviewIcon.png"/>
+        </Property>
+      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="WantedBooksLabel">
       <Properties>

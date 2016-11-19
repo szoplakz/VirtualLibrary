@@ -258,6 +258,11 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="AddToReadBooksIconButton">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="2" name="C:\Users\szoplakz\Documents\NetBeansProjects\databaza\databazaKnih-master\databazaKnih\src\main\resources\Obrazky\TickIcon.png"/>
+        </Property>
+      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="AddToWantedBooksLabel">
       <Properties>
@@ -265,6 +270,11 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="AddToWantedBooksIconButton">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="2" name="C:\Users\szoplakz\Documents\NetBeansProjects\databaza\databazaKnih-master\databazaKnih\src\main\resources\Obrazky\WantedBookIcon.png"/>
+        </Property>
+      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="SynopsisLabel">
       <Properties>
@@ -302,6 +312,11 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="BookReviewsIconButton">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="2" name="C:\Users\szoplakz\Documents\NetBeansProjects\databaza\databazaKnih-master\databazaKnih\src\main\resources\Obrazky\BookReviewsIcon.png"/>
+        </Property>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>

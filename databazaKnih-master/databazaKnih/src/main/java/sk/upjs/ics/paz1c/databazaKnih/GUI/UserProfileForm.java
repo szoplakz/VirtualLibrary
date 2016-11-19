@@ -82,7 +82,7 @@ public class UserProfileForm extends javax.swing.JFrame {
 
         ReadBooksLabel.setText("Read Books:");
 
-        ReadBooksIconButton.setIcon(new javax.swing.ImageIcon("C:\\projektobrazky\\TickIcon.png")); // NOI18N
+        ReadBooksIconButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/TickIcon.png"))); // NOI18N
 
         WantedBooksIconButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/WantedBookIcon.png"))); // NOI18N
 
@@ -111,7 +111,7 @@ public class UserProfileForm extends javax.swing.JFrame {
 
         AuthorReviewsLabel.setText("Authors:");
 
-        AuthorReviewIconButton.setIcon(new javax.swing.ImageIcon("C:\\projektobrazky\\AuthorReviewIcon.png")); // NOI18N
+        AuthorReviewIconButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/AuthorReviewIcon.png"))); // NOI18N
 
         WantedBooksLabel.setText("Wanted Books:");
 

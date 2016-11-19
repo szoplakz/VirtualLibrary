@@ -89,7 +89,11 @@ public class BookForm extends javax.swing.JFrame {
 
         AddToReadBooksLabel.setText("Add to Read Books:");
 
+        AddToReadBooksIconButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\szoplakz\\Documents\\NetBeansProjects\\databaza\\databazaKnih-master\\databazaKnih\\src\\main\\resources\\Obrazky\\TickIcon.png")); // NOI18N
+
         AddToWantedBooksLabel.setText("Add to Wanted Books:");
+
+        AddToWantedBooksIconButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\szoplakz\\Documents\\NetBeansProjects\\databaza\\databazaKnih-master\\databazaKnih\\src\\main\\resources\\Obrazky\\WantedBookIcon.png")); // NOI18N
 
         SynopsisLabel.setText("Synopsis: ");
 
@@ -102,6 +106,8 @@ public class BookForm extends javax.swing.JFrame {
         ReviewButton.setText("Review");
 
         ReviewsLabel.setText("Reviews:");
+
+        BookReviewsIconButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\szoplakz\\Documents\\NetBeansProjects\\databaza\\databazaKnih-master\\databazaKnih\\src\\main\\resources\\Obrazky\\BookReviewsIcon.png")); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

@@ -145,7 +145,7 @@ public class MyAdminProfileForm extends javax.swing.JFrame {
 
         InspectRequests.setText("Inspect Requests:");
 
-        InspectRequestsButton.setIcon(new javax.swing.ImageIcon("C:\\projektobrazky\\InspectRequestsIcon.png")); // NOI18N
+        InspectRequestsButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Obrazky/InspectRequestsIcon.png"))); // NOI18N
 
         DeleteUsersLabel.setText("Delete Users:");
 
@@ -232,7 +232,7 @@ public class MyAdminProfileForm extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(UserProfileUserNameLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 36, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 24, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(UserProfileFullNameLabel)
